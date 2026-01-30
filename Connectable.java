@@ -14,4 +14,5 @@ public interface Connectable {
 	public void send(String message);	
 	public String receive();
 	public int getPort();
+	public void disconnect(); // my change
 }
